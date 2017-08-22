@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		074402FF1F4CA58000CC6B7B /* NgConfigSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074402FE1F4CA58000CC6B7B /* NgConfigSpec.swift */; };
+		074403061F4CCB6700CC6B7B /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 074403051F4CCB6700CC6B7B /* CHANGELOG.md */; };
 		1B10ADA7FEE69C50DCD4578B /* Pods_NgFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39435E02A68AD91C0D6D4618 /* Pods_NgFramework_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		074402FE1F4CA58000CC6B7B /* NgConfigSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NgConfigSpec.swift; sourceTree = "<group>"; };
-		074403021F4CB65F00CC6B7B /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		074403051F4CCB6700CC6B7B /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		274FE628A1C9561167E2A62E /* Pods-NgFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgFramework_Tests/Pods-NgFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2ACF3C487D147F20E8E49279 /* Pods_NgFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NgFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39435E02A68AD91C0D6D4618 /* Pods_NgFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NgFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,10 +148,10 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				074403051F4CCB6700CC6B7B /* CHANGELOG.md */,
 				86F94E9CCB54CD8269EBA7BA /* NgFramework.podspec */,
 				861F68C0EBAC20FE6B874AC9 /* README.md */,
 				F777C47DC0380CA8077FCC80 /* LICENSE */,
-				074403021F4CB65F00CC6B7B /* CHANGELOG.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -381,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				074403061F4CCB6700CC6B7B /* CHANGELOG.md in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

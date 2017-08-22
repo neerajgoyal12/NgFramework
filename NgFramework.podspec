@@ -22,14 +22,14 @@ Pod::Spec.new do |s|
     a) creating a pod.
     b) TDD development using Quick unit testing.
     c) Adding other pods as dependecies.
-    d) creating an awsome framework to begin anu iOS project.
+    d) creating an awsome framework to begin any iOS project.
                        DESC
 
   s.homepage         = 'https://github.com/neerajgoyal12/NgFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'neerajgoyal12' => 'neerajgoyal12@gmail.com' }
-  s.source           = { :git => 'https://github.com/neerajgoyal12/NgFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/neerajgoyal12/NgFramework.git', :tag => 'v' + s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
