@@ -1,8 +1,8 @@
 {
   "name": "NgFramework",
   "version": "0.1.0",
-  "summary": "A short description of NgFramework.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A swift framework for experimenting with TDD programming.",
+  "description": "Experimenting\na) creating a pod.\nb) TDD development using Quick unit testing.\nc) Adding other pods as dependecies.\nd) creating an awsome framework to begin anu iOS project.",
   "homepage": "https://github.com/neerajgoyal12/NgFramework",
   "license": {
     "type": "MIT",
