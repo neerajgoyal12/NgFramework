@@ -4,4 +4,6 @@
 3. Formated .gitignore from default to have Xcode, Swift, ObjC and MacOsX .gitignore appended as well.
 4. Added a first file **NgConfig** to target framework.
 5. Added a first **QuickSpec** file **NgConfigFile** to test **NgConfig**
-6. Test are passing as well as failing. 
+6. Test are passing as well as failing.
+7. Minimum setup to start. Kept it as defult pod lib create as possible.
+8. Creating Tag and Pushing it.
