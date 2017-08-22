@@ -1,0 +1,6 @@
+framework module NgFramework {
+  umbrella header "NgFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074402FF1F4CA58000CC6B7B /* NgConfigSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074402FE1F4CA58000CC6B7B /* NgConfigSpec.swift */; };
 		1B10ADA7FEE69C50DCD4578B /* Pods_NgFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39435E02A68AD91C0D6D4618 /* Pods_NgFramework_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074402FE1F4CA58000CC6B7B /* NgConfigSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NgConfigSpec.swift; sourceTree = "<group>"; };
 		274FE628A1C9561167E2A62E /* Pods-NgFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgFramework_Tests/Pods-NgFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2ACF3C487D147F20E8E49279 /* Pods_NgFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NgFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39435E02A68AD91C0D6D4618 /* Pods_NgFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NgFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		704B0FBEE4FE808C7C578003 /* Pods-NgFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgFramework_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgFramework_Example/Pods-NgFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		861F68C0EBAC20FE6B874AC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		86F94E9CCB54CD8269EBA7BA /* NgFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NgFramework.podspec; path = ../NgFramework.podspec; sourceTree = "<group>"; };
+		861F68C0EBAC20FE6B874AC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		86F94E9CCB54CD8269EBA7BA /* NgFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NgFramework.podspec; path = ../NgFramework.podspec; sourceTree = "<group>"; };
 		8D8790284495D1F822A30E55 /* Pods-NgFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgFramework_Tests/Pods-NgFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE746AB1BAEDBE47077A858 /* Pods-NgFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgFramework_Example/Pods-NgFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F777C47DC0380CA8077FCC80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F777C47DC0380CA8077FCC80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				074402FE1F4CA58000CC6B7B /* NgConfigSpec.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				074402FF1F4CA58000CC6B7B /* NgConfigSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
